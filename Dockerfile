@@ -1,4 +1,4 @@
-FROM golang:1.7.3
+FROM golang:1.10
 
 ENV FFMPEG_SRC=/tmp/workdir/src \
     FFMPEG_BUILD=/tmp/workdir/src \
